@@ -1,0 +1,75 @@
+product:
+
+{
+"name": "testowy-produkt-z-kolumnami",
+"cpv": "1241241",
+"columns": [
+               {
+                  "id": 1,
+                  "value": "15"
+               },
+               {
+                  "id": 2,
+                  "value": "30"
+               }
+           ]
+}
+
+
+
+product-column:
+
+{
+"name": "Gramatura (g)",
+"type": "example-type"
+}
+
+
+
+product-group:
+
+{
+ "name": "Frist-group-ever",
+ "cpv": "123123123",
+ "delivery_address": "Borowskiego 15",
+ "products": [
+                {
+                   "id": 3,
+                   "amount": 10,
+                   "project_id": 1
+                },
+                {
+                   "id": 8,
+                   "amount": 30,
+                   "project_id": 1
+                }
+             ]
+}
+
+
+
+auction:
+
+{
+ "name": "Frist-group-ever",
+ "end_date": "123123123",
+ "contractor_emails": [
+    "email1@gmail.com",
+    "email2@gmail.com"
+ ],
+ "form_fields": [
+    "capital": true,
+    "employess": true,
+    "year_of_operation": false,
+    "description": false,
+    "address": true
+ ],
+ "winner_algorithm": [
+    "prices": 0.5,
+    "delivery_time": 0.8,
+    "guarantee": 0.3
+ ],
+ "status": "IN_BUILD",
+ "company_id": 1,
+ "founder_id": 1
+}
